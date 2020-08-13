@@ -1,0 +1,11 @@
+{
+  "name": "ms-resume",
+  "version": "1.0.0",
+  "description": "michael sanya",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass --watch ./css/main.scss:./css/style.css"
+  },
+  "author": "michal sanya",
+  "license": "ISC"
+}

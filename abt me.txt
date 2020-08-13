@@ -1,0 +1,88 @@
+ <div id="wrapper">
+       <nav>
+         <ul>
+           <li>
+                 <a href="index.html">About me</a>
+           </li>
+              <li>
+               <a href="skills.html">My skills</a>
+              </li>
+                <li>
+                  <a href="education.html">Education</a>
+                </li>
+                  <li>
+                   <a href="contact.html">Contact</a>
+                  </li>
+               <li>
+                 <a href="experience.html">Eperience</a>
+               </li>
+             <li>
+               <a href="portfo.html">Portfolio</a>
+             </li>     
+             
+         </ul>
+       </nav>
+           <main>
+            
+             <div class="details">
+              <h1>
+                <span id="michael">MICHAEL</span> SANYA
+              </h1>
+            <h3>
+              <u>Freelancer</u>
+                Web Developer
+            </h3>
+            <h4>Address: London, United Kingdom</h4>
+            <h4>Mobile: +447848108963</h4>
+            <h4>Email: mike_sanya@yahoo</h4>
+
+            <p> A highly motivated and reliable supervisor/coach and supportive of the team with qualified diploma in data processing and operations. 
+              Possesses Bsc in painting, general art and graghics designing with and 10years good skills and work experience in customer service
+              and food chain sector. Experence has included critical thinking and problem solving, good attention to details, communication 
+              skills and business scumens, collaboration and team work along with motivating and developing others.
+              Some experience has also included management of small team of technical staff to maximise productivity and ensure
+              health and safety standards are met.</p>
+             </div>
+             
+             <div class="photo">
+              
+             </div>
+             
+           </main>  
+
+#wrapper {
+    width: 90%;
+    min-height: 600px;
+    border: 1px solid black;
+    text-align: center;
+    background-color: lightsteelblue;
+    margin: 0 auto;
+}
+main {
+   
+    min-height: 500px;
+    border: 1px solid black;
+}
+
+
+nav {
+    background-color: blanchedalmond;
+    padding: 10px;
+}
+ul {
+    background-color: burlywood;
+    color: white;
+}
+li {
+    color: thistle;
+    margin: 10px;
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px;
+
+}
+a {
+    color: black;
+}
+          
+    

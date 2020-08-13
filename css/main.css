@@ -1,0 +1,373 @@
+body {
+  margin: 0;
+  font-family: sans-serif;
+  color: #25463e;
+}
+
+element.style {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  text-shadow: 5px;
+}
+
+/*-- about me--*/
+#wrapper {
+  width: 90%;
+  min-height: 600px;
+  text-align: center;
+  background-color: lightsteelblue;
+  margin: 0 auto;
+}
+
+main {
+  min-height: 500px;
+  background: url(../imgs/img7.jpg);
+  background-size: cover;
+  background-position: right;
+}
+
+h3 {
+  float: left;
+  margin: 2.5% 40px;
+  color: #25463e;
+}
+
+h2 {
+  font-weight: 10px;
+  letter-spacing: 200;
+  color: #25463e;
+}
+
+em {
+  border-left: 1px solid black;
+  font-weight: lighter;
+}
+
+nav {
+  background-color: blanchedalmond;
+  padding: 0px;
+  margin-top: 15px;
+  border: 1px solid blanchedalmond;
+}
+
+ul {
+  color: white;
+}
+
+li {
+  color: thistle;
+  margin-right: 10px;
+  list-style-type: none;
+  display: inline-block;
+  padding-right: 20px;
+  border-right: 1px solid burlywood;
+  height: 50px;
+}
+
+nav a {
+  color: #25463e;
+  text-decoration: none;
+  margin: auto;
+  display: block;
+  margin-top: 25%;
+}
+
+.details {
+  width: 50%;
+  min-height: 500px;
+  float: left;
+  text-align: left;
+  padding-left: 50px;
+  color: #25463e;
+}
+
+.photo {
+  min-width: 40%;
+  min-height: 400px;
+  border: 1px solid black;
+  display: inline-block;
+  margin: 0 auto;
+}
+
+/* skills */
+.progress-bar {
+  width: 30%;
+  height: 250px;
+  margin: auto;
+  margin-top: 80px;
+  border: 1px solid black;
+  display: inline-block;
+}
+
+.skills {
+  width: 500px;
+  margin: 60px auto;
+  color: #25463e;
+  border-right: none;
+}
+
+.skills li {
+  margin: 10px 0;
+}
+
+.bar {
+  background: blanchedalmond;
+  display: block;
+  height: 40px;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  border-radius: 5px;
+  overflow: hidden;
+  -webkit-box-shadow: 0 0 10px #25463e;
+          box-shadow: 0 0 10px #25463e;
+}
+
+.bar span {
+  height: 40px;
+  float: left;
+  background: #25463e;
+}
+
+.html {
+  width: 95%;
+  -webkit-animation: html 2s;
+          animation: html 2s;
+}
+
+.css {
+  width: 80%;
+  -webkit-animation: css 2s;
+          animation: css 2s;
+}
+
+.javascript {
+  width: 76%;
+  -webkit-animation: javascript 2s;
+          animation: javascript 2s;
+}
+
+.webdesign {
+  width: 96%;
+  -webkit-animation: webdesign 2s;
+          animation: webdesign 2s;
+}
+
+.photoshop {
+  width: 86%;
+  -webkit-animation: photoshop 2s;
+          animation: photoshop 2s;
+}
+
+.logo {
+  width: 70%;
+  -webkit-animation: logo 2s;
+          animation: logo 2s;
+}
+
+@-webkit-keyframes html {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 90%;
+  }
+}
+
+@keyframes html {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 90%;
+  }
+}
+
+@-webkit-keyframes css {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 80%;
+  }
+}
+
+@keyframes css {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 80%;
+  }
+}
+
+@-webkit-keyframes javascript {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 75%;
+  }
+}
+
+@keyframes javascript {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 75%;
+  }
+}
+
+@-webkit-keyframes webdesign {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 96%;
+  }
+}
+
+@keyframes webdesign {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 96%;
+  }
+}
+
+@-webkit-keyframes photoshop {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 86%;
+  }
+}
+
+@keyframes photoshop {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 86%;
+  }
+}
+
+@-webkit-keyframes logo {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 70%;
+  }
+}
+
+@keyframes logo {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 70%;
+  }
+}
+
+.column {
+  width: 80%;
+  height: 40px;
+  margin-top: 5px;
+  text-align: center;
+  padding: 3px;
+  margin-top: 40px;
+  margin-left: 40px;
+}
+
+/*Education*/
+.header {
+  width: 100%;
+  height: 70px;
+  border: 1px solid black;
+  text-align: center;
+  background-color: lavender;
+}
+
+/*contact */
+.column {
+  height: 400px;
+  width: 40%;
+  margin-right: 5px;
+}
+
+input[type=text], select, textarea {
+  width: 50%;
+  padding: 12px;
+  border: 1px solid black;
+  border-radius: 4px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin-top: 3px;
+  margin-bottom: 10px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: black;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  display: block;
+  margin-left: 25%;
+}
+
+input[type=submit]:hover {
+  background-color: black;
+  display: inline-block;
+}
+
+/*portfolio*/
+.hearder {
+  width: 100%;
+  height: 70px;
+  border: 1px solid black;
+  text-align: center;
+}
+
+.sub-main {
+  width: 350px;
+  height: 350px;
+  display: inline-block;
+  margin: 0px 20px 40px;
+}
+
+/*Experience*/
+.header {
+  width: 100%;
+  height: 70px;
+  border: 1px solid black;
+  text-align: center;
+}
+
+.date {
+  width: 9%;
+  height: 50px;
+  padding: 5px;
+  margin-top: 5px;
+  vertical-align: text-top;
+  float: left;
+}
+
+.detail {
+  width: 80%;
+  height: 200px;
+  padding: 10px;
+  margin-top: 0px;
+  vertical-align: text-top;
+  float: left;
+  margin-bottom: 0px;
+}
+/*# sourceMappingURL=main.css.map */
