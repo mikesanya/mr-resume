@@ -87,7 +87,108 @@
     </footer>
   </div>
 
- 
+  <script>
+
+    let checkmark = document.getElementsByClassName('complete');
+
+    function alphanumeric(data) {
+      let letters = /^[0-9a-zA-Z]+$/;
+      if (letters.test(data)) {
+        return true;
+      }
+      return false;
+    }
+
+    function validateEmail(data) {
+      let testData = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
+      if (testData.test(data)) {
+        return true;
+      }
+      return (false)
+    }
+
+    function disableButton() {
+      document.getElementById('submit').disabled = true;
+    }
+
+    function enableButton() {
+      document.getElementById('submit').disabled = false;
+    }
+
+    document.getElementById('fname').onblur = function () {
+      let status = document.getElementById('fname').value;
+      if (status.length < 3) {
+        document.getElementById('alert-fname').innerHTML = 'Name field is empty or less than 3 characters!';
+        document.getElementById('alert-fname').add('small');
+        disableButton();
+      } else {
+        document.getElementById('alert-fname').innerHTML = '';
+      
+        enableButton();
+      }
+    };
+
+    document.getElementById('subject').onblur = function () {
+      let status = document.getElementById('subject').value;
+      if (status.length < 3) {
+        document.getElementById('alert-subject').innerHTML = 'Name field is empty or less than 3 characters!';
+        document.getElementById('alert-subject').add('small');
+        disableButton();
+      } else {
+        document.getElementById('alert-subject').innerHTML = '';
+      
+        enableButton();
+      }
+    };
+
+    document.getElementById('lname').onblur = function () {
+      let status = document.getElementById('lname').value;
+      if (status.length < 3) {
+        document.getElementById('alert-lname').innerHTML = 'Name field is empty or less than 3 characters!';
+        document.getElementById('alert-lname').add('small');
+        disableButton();
+      } else {
+        document.getElementById('alert-lname').innerHTML = '';
+      
+        enableButton();
+      }
+    };
+
+    document.getElementById('email').onblur = function () {
+      let status = document.getElementById('email').value;
+      if (status.length < 0) {
+        document.getElementById('alert-email').innerHTML = 'Email field is empty';
+        checkmark[2].classList.remove('active');
+        disableButton();
+      } else if (!validateEmail(status)) {
+        document.getElementById('alert-email').innerHTML = 'Invalid email address!';
+        checkmark[2].classList.remove('active');
+        disableButton();
+      } else {
+        document.getElementById('alert-email').innerHTML = '';
+        checkmark[2].classList.add('active');
+        enableButton();
+      }
+    };
+    document.getElementById('message').onblur = function () {
+      let status = document.getElementById('message').value;
+      if (status.length < 3) {
+        document.getElementById('alert-message').innerHTML = 'Name field is empty or less than 3 characters!';
+        document.getElementById('alert-message').add('small');
+        disableButton();
+      } else {
+        document.getElementById('alert-message').innerHTML = '';
+      
+        enableButton();
+      }
+    };
+
+    
+
+  
+    
+
+  </script>
 </body>
 
 </html>
