@@ -1,84 +1,93 @@
 <!DOCTYPE html>
 <html lang="en">
- <head>
-     <title>Resume - Contact</title>
+
+<head>
+  <title>Resume - Contact</title>
   <link href="css/style.css" rel="stylesheet">
   <link href="css/all.css" rel="stylesheet">
   <script src="https://kit.fontawesome.com/a076d05399.js"></script>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
- </head>
- <body>
-     <!--wrapper start-->
-   <div id="wrapper">
+
+  <style>
+  small{
+    color: red;
+  }
+  </style>
+</head>
+
+<body>
+  <!--wrapper start-->
+  <div id="wrapper">
     <header>
       <nav class="nav">
-       
-      <ul>
-        <logo class="logo">
-          <a href="index.html">Ms<em> resume</em></logo></a>
-        <li><a href="index.html">About me</a></li>
-        <li><a href="skills.html">My skills</a></li> 
-        <li><a href="experience.html">Experience</a></li>  
-        <li><a href="education.html">Education</a></li>
-        <li><a href="portfolio.html">Portfolio</a></li> 
-        <li><a href="contact.html">Contact</a></li>
-      </ul>
+
+        <ul>
+          <logo class="logo">
+            <a href="index.html">Ms<em> resume</em></logo></a>
+          <li><a href="index.html">About me</a></li>
+          <li><a href="skills.html">My skills</a></li>
+          <li><a href="experience.html">Experience</a></li>
+          <li><a href="education.html">Education</a></li>
+          <li><a href="portfolio.html">Portfolio</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
       </nav>
     </header>
-        <main> 
+    <main>
       <section id="Contact">
-            <div class="contact">
-              <h2>Contact</h2>
-      
-              <b>Address: London, United Kingdom
-           <br>Mobile: +447848108963
-           <br>Email: mike_sanya@yahoo.co.uk</b>
-                  
-            <div class="contact-form">
-                <form action="contact.html">
-              
-                  
-                  <input type="text" id="fname" name="firstname" placeholder="first name" data-validation="required">
-              
-                
-                  <input type="text" id="lname" name="lastname" placeholder="last name" data-validation="required">
+        <div class="contact">
+          <h2>Contact</h2>
 
-                  
-                  <input type="text" id="Youremail" name="Youremail" placeholder="your email" data-validation="Your email">
+          <b>Address: London, United Kingdom
+            <br>Mobile: +447848108963
+            <br>Email: mike_sanya@yahoo.co.uk</b>
 
-                  <input type="text" id="subject" name="subject" placeholder="subject" data-validation="subject">
-                
-                  <textarea name="message" placeholder="Write something" style="height:200px"></textarea>
-              
-                  <input type="submit" value="Submit">
-              
-                </form>
-              </div>
-            </div>
+          <div class="contact-form">
+            <form action="contact.html">
 
-              <div class="footer-div">
-                <strong>Social Media:</strong>
-                <span>
-                    <a href="https://twitter.com" target="_blank">
-                        <i class="fab fa-twitter" aria-hidden="true"> </i>
-                    </a>
-                    <a href="https://youtube.com" target="_blank">
-                      <i class="fab fa-youtube" aria-hidden="true"></i>
-                    </a>
-                    <a href="https://facebook.com" target="_blank" >
-                      <i class="fab fa-facebook" aria-hidden="true"></i>
-                    </a>
-                    <a href="https://instagram.com" target="_blank">
-                      <i class="fab fa-instagram-square" aria-hidden="true"></i>
-                    </a>
-                </span>
-            </div>
+
+              <input type="text" id="fname" name="firstname" placeholder="first name" required>
+              <br> </i><small id="alert-fname"></small><br>
+              <input type="text" id="lname" name="lastname" placeholder="last name" required>
+              <br><small id="alert-lname"></small><br>
+              <input type="text" id="email" name="Youremail" placeholder="your email" required>
+              <br><small id="alert-email"></small><br>
+              <input type="text" id="subject" name="subject" placeholder="subject" required>
+              <br><small id="alert-subject"></small><br>
+              <textarea id="message" name="message" placeholder="Write something" style="height:200px"></textarea>
+              <br><small id="alert-message"></small><br>
+              <input type="submit" value="Submit">
+
+            </form>
+          </div>
+        </div>
+
+        <div class="footer-div">
+          <strong>Social Media:</strong>
+          <span>
+            <a href="https://twitter.com" target="_blank">
+              <i class="fab fa-twitter" aria-hidden="true"> </i>
+            </a>
+            <a href="https://youtube.com" target="_blank">
+              <i class="fab fa-youtube" aria-hidden="true"></i>
+            </a>
+            <a href="https://facebook.com" target="_blank">
+              <i class="fab fa-facebook" aria-hidden="true"></i>
+            </a>
+            <a href="https://instagram.com" target="_blank">
+              <i class="fab fa-instagram-square" aria-hidden="true"></i>
+            </a>
+          </span>
+        </div>
       </section>
-    </main> 
-        <footer><p>© 2020 MsResume - BeTheme. All Rights Reserved.</p></footer>
-   </div> 
+    </main>
+    <footer>
+      <p>© 2020 MsResume - BeTheme. All Rights Reserved.</p>
+    </footer>
+  </div>
 
  
- </body>
-</html> 
+</body>
+
+</html>

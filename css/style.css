@@ -41,11 +41,6 @@ main {
   width: 100%;
 }
 
-inner-container {
-  width: 100%;
-  border: 1px solid black;
-}
-
 footer {
   width: 100%;
   text-align: center;
