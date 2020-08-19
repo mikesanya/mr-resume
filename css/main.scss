@@ -33,15 +33,20 @@ header {
   z-index: 9999;
   width: 100%;
 }
-#main {
+main {
   min-height: 500px;
-  background: url(../imgs/img7.jpg);
-  background-size: cover;
-  background-position: right;
+  width: 100%;
 }
 inner-container {
-  position: relative;
   width: 100%;
+  border: 1px solid black;
+}
+footer {
+  width: 100%;
+  text-align: center;
+  color: #25463e;
+  margin: 20px;
+  margin-left: -1px;
 }
 
 #aboutme {
@@ -49,8 +54,10 @@ inner-container {
   min-height: 400px;
   letter-spacing: 0em;
   padding-top: 20px;
+  background: url(../imgs/img04.jpg);
   overflow: hidden;
-  
+  background-size: cover;
+  background-position: right;
 }
 .justify {
   width: 80%;
@@ -58,6 +65,10 @@ inner-container {
   margin: 0 auto;
   margin-left: 3px;
   word-break: break-all;
+  color: beige;
+}
+h1, span, u, h4 {
+  color: beige;
 }
 
 h3 {
@@ -71,16 +82,15 @@ h2 {
   font-weight: 10px;
   font-weight: lighter;
   }
-
-
   .logo {
     width: 150px;
     font-weight: bold;
     font-size: 20px;
     display: block;
-    margin-left: -250px;
+    margin-left: -50px;
     height: 40px;
-    padding-top: 4px;
+    margin-bottom: -6px;
+    margin-left: 1px;
   }
 
 em {
@@ -99,7 +109,7 @@ em {
 }
 .nav li {
   display: inline-block;
-  margin: 0px 0px 0px 25px;
+  margin: 0px 0px 0px 20px;
   padding-bottom: 10px;
   list-style-type: none;
   border-right: 1px solid burlywood;
@@ -115,6 +125,10 @@ nav a {
   padding-right: 20px;
   display: block;
 }
+li:hover {
+  background-color: burlywood;
+}
+
 .details {
   width: 60%;
   min-height: 500px;
@@ -150,7 +164,8 @@ nav a {
   margin: auto;
   margin-top: 100px;
   display: inline-block;
-  margin-right: -2px;
+  margin-left: -3px;
+  margin-bottom: 40px;
 }
 
 .html {
@@ -253,7 +268,7 @@ nav a {
 #Education {
   min-height: 200px;
   text-align: center;
-  padding: 20px;
+  padding: 40px;
 }
 
 
@@ -262,13 +277,7 @@ nav a {
   min-height: 200px;
   padding: 10px;
 }
-.footer {
-  width: 60px;
-  height: 100px;
-  display: grid;
-  color: white;
-  text-align: center;
-}
+
 .fab {
   font-size: 30px;
   color: #25463e;
@@ -276,7 +285,6 @@ nav a {
   animation-name: fab;
   animation-duration: 6s;
 }
-
 @keyframes fab {
   from {color: blue;}
   to {color:
@@ -292,7 +300,6 @@ input[type=text], select, textarea {
   margin-bottom: 5px;
   resize: vertical;
 }
-
 input[type=submit] {
   background-color: black;
   color: white;
@@ -306,7 +313,6 @@ input[type=submit] {
 
 input[type=submit]:hover {
   background-color: black;
-  
 }
 
 /*portfolio*/
@@ -319,27 +325,29 @@ input[type=submit]:hover {
   width: 300px;
   height: 300px;
   display: inline-block;
+  border: 1px solid black;
   margin: 0px 30px 40px;
   box-shadow: 10px 10px 30px 7px rgb(15,35,110.150),
   -10px -10px 30px 7px rgb(15,35,110.150);
   cursor: pointer;
   transition: 4s;
   transition-timing-function: cubic-bezier(1, 0, 0, 1);
+  margin-left: -3px;
 }
 .p3-img {
   width: 300px;
-  height: 300px;
+  height: 200px;
   border-radius: 10px;
 }
 .p1-img {
   width: 300px;
-  height: 300px;
+  height: 200px;
   border-radius: 10px;
   margin-top: 10px;
 }
 .p2-img {
   width: 300px;
-  height: 300px;
+  height: 200px;
   border-radius: 10px;
 }
 
@@ -356,11 +364,7 @@ html,
   margin: 0;
   font-size: 18px;
 }
-section-main {
-  padding-top: 4rem;
-  width: 50%;
-  margin: auto;
-}
+
 details[open] summary ~ * {
   animation: open 0.3s ease-in-out;
 }
@@ -447,7 +451,7 @@ details p {
   .logo {
     font-weight: bold;
     margin-bottom: 30px;
-    margin-left: 80px;
+    margin-left: 60px;
   }
 }
 
