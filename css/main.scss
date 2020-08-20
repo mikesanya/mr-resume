@@ -33,7 +33,7 @@ header {
   z-index: 9999;
   width: 100%;
 }
-main {
+#main {
   min-height: 500px;
   width: 100%;
 }
@@ -49,20 +49,25 @@ footer {
 #aboutme {
   width: 100%;
   min-height: 400px;
-  letter-spacing: 0em;
   padding-top: 20px;
   background: url(../imgs/img04.jpg);
   overflow: hidden;
   background-size: cover;
   background-position: right;
 }
-.justify {
-  width: 80%;
-  text-align: justify;
-  margin: 0 auto;
-  margin-left: 3px;
-  word-break: break-all;
+#profile {
+  width: 100%;
+  min-height: 400px;
+  letter-spacing: 0;
+  padding-top: 10px;
   color: beige;
+}
+.justify {
+  width: 100%;
+  text-align: justify;
+  margin: auto;
+  margin-left: 3px;
+ 
 }
 h1, span, u, h4 {
   color: beige;
